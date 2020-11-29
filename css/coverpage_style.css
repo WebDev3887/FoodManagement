@@ -1,0 +1,356 @@
+*{
+    font-size: 10px;
+    margin: 0;
+    padding: 0;
+}
+html{
+    scroll-behavior: smooth;
+}
+
+/* header */
+#header_box{
+    display: flex;
+    position: sticky;
+    top: 0px; 
+}
+#header_box::before{
+    content: "";
+    background-color: black;
+    position: absolute;
+    top:0px;
+    left:0px;
+    height: 100%;
+    width:100%;
+    z-index: -1;
+    opacity: 0.7;
+}
+#logobar{
+    display: flex;
+    flex-direction: column;
+    margin: 1rem 2rem;
+}
+#logo{
+    height:4rem;
+    width: 9rem;
+    margin: 0rem 3rem;
+}
+#tag_line{
+    font-size: 1.5rem;
+    color: white;
+}
+#navbar{
+    display: flex;
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+#navbar ul{
+    display: flex;
+    list-style: none;
+}
+#navbar li{
+    margin: 2.5rem 0rem;
+}
+#navbar li a{
+    padding: 1rem 2rem;
+    margin: 2rem 2rem;
+    font-size: 2rem;
+    text-decoration: none;
+    color: white;
+}
+#navbar li a:hover{
+    background-color: rgb(185, 196, 176);
+    border-radius: 2rem;
+    color: black;
+}
+
+
+/* home */
+#home{
+    display: flex;
+    flex-direction: column;
+    height: 50rem;
+    align-items: center;
+    justify-content: center;
+}
+#home::before{
+    content: "";
+    background: url('./bg1.jpg') no-repeat center center/cover;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 59rem;
+    z-index: -1;
+    opacity: .95;
+}
+#home h1{
+    font-size: 5rem;
+    color: white;
+    text-align: center;
+}
+#home p{
+    font-size: 2rem;
+    color: white;
+    margin: 0rem 10rem;
+    padding: 5rem 0rem;
+}
+#coat{
+    text-align: end;
+    align-self: flex-end;
+}
+#register{
+    background-color: white;
+    opacity: 0.75;
+    display: flex;
+    position: absolute;
+    height: 9rem;
+    width: 50%;
+    top: 55rem;
+    left: 25%;
+    border: none;
+    border-radius: 1rem;
+    box-shadow: 1rem 1rem 5rem 1rem rgb(117, 122, 118, 0.8) ;
+}
+#left{
+    display: flex;
+    flex-direction: column;
+    margin: 1rem 4rem;
+    font-size: 2rem;
+    padding: .3rem 0rem;
+}
+#left p{
+    margin: 0rem 0rem;
+    padding: .7rem 0rem;
+}
+#right{
+    font-size: 2rem;
+    margin: 3rem 7rem;
+}
+#right a{
+    text-decoration: none;
+    font-size: 2rem;
+}
+#register h3{
+font-size: 2rem;
+}
+#register p{
+color: black;
+font-size: 1.5rem;
+}
+
+
+
+
+/* Services Section */
+#service{
+    height: 70rem;
+}
+#service_head{
+    font-size: 7rem;
+    text-align: center;
+    color: white;
+    background-color: black;
+    margin-top: 10rem;
+}
+#service_main_box{
+    display: flex;
+    margin: 2rem 4rem;
+}
+.service_sub_box{
+    border: .3rem solid green;
+    border-radius: 5rem;
+    padding: 5rem 5rem;
+    margin: 3rem 3rem;
+    background: #e9f0ea;
+}
+.service_image{
+    height: 14rem;
+    width: 14rem;
+    display: block;
+    margin: auto;
+}
+.service_heading{
+    font-size: 3rem;
+   margin-top: 3rem;
+}
+.service_para{
+    font-size: 1.2rem;
+    margin-top: 3rem;
+}
+
+
+
+/* about */
+#about p h2{
+    font-size: 7rem;
+}
+#about{
+    height: 105rem;
+    margin: 3rem 0rem;
+    padding: 1rem 2rem;
+
+}
+#about div{
+    font-size: 7rem;
+    text-align: center;
+    color: white;
+    background-color: black;
+    opacity: 0.9;
+}
+#about p{
+    font-size: 2rem;
+    color: black;
+    margin: 8rem 15rem;
+}
+
+
+/* contact */
+#contact{
+    height: 50rem;
+    background-color: lemonchiffon;
+}
+
+
+/* sitemap */
+#sitemap{
+    height: 30rem;
+    background-color: rgb(76, 78, 77);
+    /* display: flex; */
+    /* flex-direction: column; */
+}
+#back_to_top{
+    height: 3rem;
+    width: 100%;
+    font-size: 1.5rem;
+    background-color: rgb(52, 54, 52);
+    color: white;
+    border: none;
+}
+#sitemap_box{
+    /* border: .2rem solid green; */
+    height: 23rem;
+    width: 90%;
+    margin: 2rem auto;
+    display: flex;
+}
+.sitemap_list{
+    display: flex;
+    flex-direction: column;
+    list-style: none;
+    margin: 0rem 15%;
+}
+.sitemap_list li{
+    margin: 2.83rem 0rem;
+    
+}
+.sitemap_list li a{
+    font-size: 2rem;
+    text-decoration: none;
+    color: white;
+}
+
+
+
+/* footer */
+#foot{
+    width: 100%;
+    height: 4rem; 
+}
+
+#footer-main-div{
+    background: black;
+    padding: 2rem 0rem;
+}
+.footer-social-icons{
+    width: 100%;
+    height: auto;
+    margin: auto;
+}
+.footer-social-icons ul{
+    margin: 0rem;
+    padding: 0rem;
+    text-align: center;
+}
+.footer-social-icons ul li{
+    display: inline-block;
+    width: 5rem;
+    height: 5rem;
+    margin: 0rem 1rem;
+    border-radius: 100%;
+    background: white;
+}
+.footer-social-icons ul li a{
+    color: black;
+    font-size: 2.5rem;
+}
+.footer-social-icons ul li a i{
+    line-height: 5rem;
+}
+#footer-copyright{
+    display: flex;
+    justify-content: center;
+}
+#footer-copyright a{
+    font-size: 2rem;
+    color: white;
+    margin-top: 1rem;
+}
+
+ body_contact {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        * {
+            box-sizing: border-box;
+        }
+
+        body_contact {
+            background-color: rgb(247, 238, 238);
+        }
+
+        /* Style inputs */
+        input[type=text],
+        select,
+        textarea {
+            width: 100%;
+            padding: 12px;
+            border: 1px solid rgb(23, 148, 54);
+            margin-top: 6px;
+            margin-bottom: 10px;
+            resize: vertical;
+        }
+
+        input[type=submit] {
+            background-color: #03045f;
+            color: rgb(139, 190, 17);
+            padding: 12px 20px ;
+            border: none;
+            cursor: pointer;
+        }
+
+        input[type=submit]::shadow {
+            background-color: #173fc4;
+            
+        }
+
+        /* Style the container/contact section */
+        .container {
+            border-radius: 5px;
+            padding : 5px;
+        }
+
+        /* Create two columns that float next to eachother */
+        .column {
+            float: left;
+            width: 30%;
+            margin-top: 6px;
+            padding: 30px;
+        }
+
+        /* Clear floats after the columns */
+        .row:after {
+            content: "";
+            display: table;
+            clear: both;
+        }

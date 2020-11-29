@@ -1,0 +1,139 @@
+body{
+    margin: 0;
+    padding: 0;
+    background: url(../img/life.jpeg);
+    background-size: cover;
+    background-position:inherit;
+    opacity: .80;
+    height: 100%;
+    width: 100%;
+}
+
+header 
+{
+    height: 100px;
+    width: 170px;
+    position: absolute;
+    left: 1%;
+}
+
+#logo{
+    height: 4rem;
+    width: 9rem;
+    margin: 2rem 2rem;
+}
+
+.Information_box{
+    position: absolute;
+    top: 20%;
+    left:2%;
+    transform: translate(0%,0%);
+    width: 820px;
+    height: 470px;
+    box-sizing: border-box;
+    color: #fff;
+}
+
+h1
+{
+    margin:0;
+    padding: 0;
+    color: #fff;
+    text-align: center;
+
+}
+
+
+
+.loginBox{
+    position: absolute;
+    top: 55%;
+    left:80%;
+    transform: translate(-50%,-50%);
+    width: 350px;
+    height: 500px;
+    padding: 70px 30px;
+    box-sizing: border-box;
+    background: #000;
+    color: #fff;
+}
+
+
+h2
+{
+    margin:0;
+    padding: 0 0 20px;
+    color: #1E90FF;
+    text-align: center;
+
+}
+
+.loginBox p
+{
+  padding: 0;
+  margin: 0;
+  font-weight: bold;
+  color: #fff;
+}
+
+
+.loginBox input
+{
+    width: 100%;
+    margin-bottom: 20px;
+}
+.loginBox input[type="text"],.loginBox input[type="password"]
+{
+    border: none;
+    border-bottom: 1px solid #fff;
+    background: transparent;
+    outline: none;
+    height: 40px;
+    color: #fff;
+    font-size: 16px;
+    margin-top:3px;
+}
+
+
+.loginBox input[type="submit"]
+{
+    border:none;
+    outline: none;
+    height: 40px;
+    color: #fff;
+    font-size: 18px;
+    background: #fb2525;
+    cursor: pointer; 
+    border-radius: 20px;
+}
+
+.loginBox input[type="submit"]:hover
+{
+    cursor: pointer;
+    background: 	#0080FF;
+    color: #000;
+}
+
+.loginBox a 
+{
+   color: #fff;
+   font-size: 14px;
+   font-weight: bold;
+}
+
+.loginBox a:hover
+{
+    cursor: pointer;
+    color:	#0000FF;
+}
+
+.user
+{
+    width: 100px;
+    height: 100px;
+    overflow: hidden;
+    position: absolute;
+    top: calc(-100px/2);
+    left: calc(50% - 50px);
+    
+}
